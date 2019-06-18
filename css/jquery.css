@@ -1,0 +1,10 @@
+.box {width: 100px; height: 100px; background-color: red;}
+.ani1-cls {
+	animation-name: ani1;
+	animation-duration: 1s;
+}
+
+@keyframes ani1 {
+	0% {transform: rotate(0deg);}
+	100% {transform: rotate(360deg);}
+}

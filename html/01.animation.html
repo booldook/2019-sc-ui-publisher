@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Float</title>
+	<!-- css순서 1.fa.min.css/2.bootstrap/3.그외의 외부css/4.base.css/5.현재페이지의 css	-->
+	<link rel="stylesheet" href="../css/fa.min.css">
+	<link rel="stylesheet" href="../css/bootstrap.min.css">
+	<link rel="stylesheet" href="../css/animate.css">
+	<link rel="stylesheet" href="../css/base.css">
+	<link rel="stylesheet" href="../css/animation.css">
+	<!-- js순서 1.jquery/2.그외 외부js/3.현재페이지의 js를 </body>바로 위에 붙인다.	-->
+	<script src="../js/jquery-3.3.1.min.js"></script>
+	<script src="../js/bootstrap.min.js"></script>
+	<script src="../js/wow.min.js"></script>
+	<script src="../js/jquery.cycle2.min.js"></script>
+</head>
+<body>
+<!--
+transition(장면전환)
+transform(변형) : translate(x, y)/rotate(20deg)/scale(0.8)/skew ...
+https://www.w3schools.com/css/css3_2dtransforms.asp
+translate(이동)
+keyframe(변화의 시점)
+-->
+<div class="wrap text-center">
+	<button class="btn btn-primary" id="bt1">움직여!</button>
+	<button class="btn btn-primary" id="bt2">움직여!</button>
+	<button class="btn btn-danger" id="bt3">움직여!</button>
+	<button class="btn btn-danger" id="bt4">멈춰!</button>
+</div>
+
+
+<div class="box"></div>
+<script src="../js/animation.js"></script>
+</body>
+</html>
