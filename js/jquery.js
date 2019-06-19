@@ -26,3 +26,5 @@ $(".btn").click(function () {
 
 /* DOM(Document Object Model) */
 /* Ajax(통신) */
+
+

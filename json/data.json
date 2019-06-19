@@ -1,0 +1,23 @@
+{
+  "datas": [
+    {
+      "tagName": "div",
+      "clsName": "box",
+      "bgColor": "red"
+    },{
+      "tagName": "div",
+      "clsName": "box",
+      "bgColor": "blue"
+    },{
+      "tagName": "div",
+      "clsName": "box",
+      "bgColor": "green"
+    },{
+      "tagName": "div",
+      "clsName": "box",
+      "bgColor": "grey"
+    }
+  ]
+}
+
+
